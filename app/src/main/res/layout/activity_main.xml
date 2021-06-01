@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:id="@+id/number_operation_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/black"
+        android:columnCount="4"
+        android:orientation="horizontal"
+        android:rowCount="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/output"
+        app:layout_constraintVertical_weight="2">
+
+        <TextView
+            android:id="@+id/one"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/ripple_effect"
+            android:gravity="center"
+            android:text="@string/_1"
+            android:textColor="@color/white"
+            android:textSize="42sp" />
+
+        <TextView
+            android:id="@+id/two"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/ripple_effect"
+            android:gravity="center"
+            android:text="@string/_2"
+            android:textColor="@color/white"
+            android:textSize="42sp" />
+
+        <TextView
+            android:id="@+id/three"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/ripple_effect"
+            android:gravity="center"
+            android:text="@string/_3"
+            android:textColor="@color/white"
+            android:textSize="42sp" />
+
+        <TextView
+            android:id="@+id/addition"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/ripple_effect"
+            android:gravity="center"
+            android:text="@string/add"
+            android:textColor="@color/white"
+            android:textSize="42sp" />
+
+        <TextView
+            android:id="@+id/four"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/ripple_effect"
+            android:gravity="center"
+            android:text="@string/_4"
+            android:textColor="@color/white"
+            android:textSize="42sp" />
+
+        <TextView
+            android:id="@+id/five"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/ripple_effect"
+            android:gravity="center"
+            android:text="@string/_5"
+            android:textColor="@color/white"
+            android:textSize="42sp" />
+
+        <TextView
+            android:id="@+id/six"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/ripple_effect"
+            android:gravity="center"
+            android:text="@string/_6"
+            android:textColor="@color/white"
+            android:textSize="42sp" />
+
+        <TextView
+            android:id="@+id/subtraction"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/ripple_effect"
+            android:gravity="center"
+            android:text="@string/sub"
+            android:textColor="@color/white"
+            android:textSize="42sp" />
+
+        <TextView
+            android:id="@+id/seven"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/ripple_effect"
+            android:gravity="center"
+            android:text="@string/_7"
+            android:textColor="@color/white"
+            android:textSize="42sp" />
+
+        <TextView
+            android:id="@+id/eight"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/ripple_effect"
+            android:gravity="center"
+            android:text="@string/_8"
+            android:textColor="@color/white"
+            android:textSize="42sp" />
+
+        <TextView
+            android:id="@+id/nine"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/ripple_effect"
+            android:gravity="center"
+            android:text="@string/_9"
+            android:textColor="@color/white"
+            android:textSize="42sp" />
+
+        <TextView
+            android:id="@+id/multiplication"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/ripple_effect"
+            android:gravity="center"
+            android:text="@string/multi"
+            android:textColor="@color/white"
+            android:textSize="42sp" />
+
+        <TextView
+            android:id="@+id/decimal"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/ripple_effect"
+            android:gravity="center"
+            android:text="@string/dot"
+            android:textColor="@color/white"
+            android:textSize="42sp" />
+
+        <TextView
+            android:id="@+id/zero"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/ripple_effect"
+            android:gravity="center"
+            android:text="@string/_0"
+            android:textColor="@color/white"
+            android:textSize="42sp" />
+
+        <TextView
+            android:id="@+id/percentage"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/ripple_effect"
+            android:gravity="center"
+            android:text="@string/percent"
+            android:textColor="@color/white"
+            android:textSize="42sp" />
+
+        <TextView
+            android:id="@+id/divide"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/ripple_effect"
+            android:gravity="center"
+            android:text="@string/divide"
+            android:textColor="@color/white"
+            android:textSize="42sp" />
+
+    </GridLayout>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/output"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#FD9930"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/number_operation_layout"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_weight="1">
+
+        <EditText
+            android:id="@+id/display_output"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="12dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:inputType="numberDecimal"
+            android:padding="16dp"
+            android:textColor="@color/white"
+            android:textSize="48sp"
+            tools:ignore="Autofill,LabelFor" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:orientation="horizontal"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/output">
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:padding="16dp"
+            android:text="@string/clr"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/equals"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:padding="16dp"
+            android:text="@string/equal"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            tools:ignore="ButtonStyle" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
